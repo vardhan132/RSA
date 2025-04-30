@@ -74,7 +74,7 @@ The complete technical explanation of RSA is provided in the [`Report/RSA_Report
 
 ## Result
 
-An example result of RSA encryption and decryption is available in the [`Result/RSA_Results_CS22B1049.png`](Result/RSA_Results_CS22B1049.png) file.
+An example result of RSA encryption and decryption is available in the [`Result/RSA_Results_CS22B1049.png`](Result/RSA_Result_CS22B1049.png) file.
 
 ---
 
@@ -90,8 +90,8 @@ An example result of RSA encryption and decryption is available in the [`Result/
 
 ## Security Considerations
 
-- Key lengths of 2048 bits or more are recommended for modern applications.
-- RSA is theoretically vulnerable to quantum attacks (e.g., Shor's algorithm).
-- Use padding schemes like OAEP in production for added security.
+- Determined by the size of the modulus nnn; modern RSA implementations typically use key lengths ranging from 2048 to 4096 bits.
+- Depends on the computational difficulty of factoring large semi-prime numbers. 
+- While RSA remains secure against classical attacks, it is theoretically breakable by Shor’s algorithm on a sufficiently powerful quantum computer. 
 
 ---
